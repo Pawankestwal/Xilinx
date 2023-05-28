@@ -1,0 +1,16 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c75c13cf87874afea8f8b8b34fb29f77 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot adder_4bit_test_behav xil_defaultlib.adder_4bit_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/Pavan/4bit_adder/4bit_adder.srcs/sources_1/new/bit4_adder.v:30]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.full_3
+Compiling module xil_defaultlib.adder_four_bit
+Compiling module xil_defaultlib.adder_4bit_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot adder_4bit_test_behav
